@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Harper's Hangout</title>
+
+  <!--Favicon Link-->
+  <link rel="icon" href="favicon copy.ico">
+
+  <!--Google Fonts-->
+
+
+  <!--Bootstrap CDN Default Links-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!--CSS External File-->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--Font Awesome Icons-->
+  <script src="https://kit.fontawesome.com/695aec2682.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="title">
+
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Harper's Hangout</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6 title-content">
+          <h1 class="title-content">Meet Harper, <br> the coolest dog on the block.</h1>
+          <button onclick="window.open('https://www.apple.com/ios/app-store/','_blank')" type="button" class="btn btn-dark btn-lg download-button"><span class="fab fa-apple"></span> Download</button>
+          <button onclick="window.open('https://play.google.com/store/apps','_blank')"type="button" class="btn btn-light btn-lg download-button"><span class="fab fa-google-play"></span> Download</button>
+        </div>
+        <div class="col-lg-6 title-content">
+          <img src="images/harper-title.jpg" alt="title-picture" class="title-image title-content">
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="features">
+
+    <div class="row features">
+      <div class="col-lg-4 col-sm-12"><i class="fas fa-check-circle features-icons fa-3x"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it. <br /> Let your pup prove it.</p>
+      </div>
+      <div class="col-lg-4 col-sm-12"><i class="fas fa-bullseye features-icons fa-3x"></i>
+        <h3>Elite Clientele</h3>
+        <p>Our pup is of the finest pups around, <br>we're sure of it.</p>
+      </div>
+      <div class="col-lg-4 col-sm-12"><i class="fas fa-heart features-icons fa-3x"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Give your dogs the time of their lives, <br>money back guaranteed.</p>
+      </div>
+    </div>
+
+
+    <!-- <div class="col-lg-6">
+        <video src="images/Harper-video.MOV" controls>
+          Video not supported
+        </video>
+      </div> -->
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="testimonials" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+
+      <ol class="carousel-indicators">
+         <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+         <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+         <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+       </ol>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="3500">
+          <!-- class="d-block w-100" -->
+
+          <h2 class="testimonial-text">Harper is so exciting, energetic, and passionate about playing. She's the best of all my friends. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Brody, Denver, CO</em>
+        </div>
+        <div class="carousel-item" data-interval="3500">
+          <h2 class="testimonial-text"> My dog used to be shy around other dogs, but with Harper's help, she is ready to play with anyone!</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Laura, Denver, CO</em>
+        </div>
+        <div class="carousel-item" data-interval="3500">
+          <h2 class="testimonial-text"> Harper's parents are the best! <br> She gets pumpkin in return for great behavior. I'd highly recommend them!</h2>
+          <img class="testimonial-image" src="images/matt-pic.jpg" alt="man-profile">
+          <em>Matt, Denver, CO</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="press">
+    <img class="press-pictures" src="images/AKC-logo.png" alt="AKC-logo">
+    <img class="press-pictures" src="images/Petco-logo.png" alt="Petco-logo" style="border-radius: 15%;">
+    <img class="press-pictures" src="images/AP-logo.png" alt="AP-logo">
+    <img class="press-pictures" src="images/Chewy-logo.png" alt="Chewy-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="pricing" id="pricing">
+
+    <h2>A Plan for Every Dog's Play</h2>
+    <p>Simple and affordable price plans for you and your dog.</p>
+
+
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 pricing-column">
+        <div class="card">
+          <div class="card-header">
+            <h3>Like It</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>1 Session Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button onclick="window.open('signup.html','_blank')" type="button" class="btn btn-lg btn-block btn btn-primary">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 pricing-column">
+        <div class="card">
+          <div class="card-header">
+            <h3>Love It</h3>
+          </div>
+          <div class="card-body">
+            <h2>$29 / mo</h2>
+            <p>3 Sessions Per Day</p>
+            <p>30 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button onclick="window.open('signup.html','_blank')" type="button" class="btn btn-lg btn-block btn btn-primary"=>Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 pricing-column">
+        <div class="card">
+          <div class="card-header">
+            <h3>Gotta Have It</h3>
+          </div>
+          <div class="card-body">
+            <h2>$59 / mo</h2>
+            <p>5 Priority Sessions Per Day</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button onclick="window.open('signup.html','_blank')" type="button" class="btn btn-lg btn-block btn btn-primary">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="cta">
+
+    <h2 class="cta-text">Find the Perfect Pal for Your Dog Today.</h2>
+    <button onclick="window.open('https://www.apple.com/ios/app-store/','_blank')" type="button" class="btn btn-dark btn-lg download-button"><span class="fab fa-apple"></span> Download</button>
+    <button onclick="window.open('https://play.google.com/store/apps','_blank')"type="button" class="btn btn-light btn-lg download-button"><span class="fab fa-google-play"></span> Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="footer" id="footer">
+    <button onclick="window.open('https://twitter.com/login','_blank')" type="button" class="btn btn-link btn-lg footer-btn"><i class="fab fa-twitter"></i></button>
+    <button onclick="window.open('https://www.facebook.com/','_blank')" type="button" class="btn btn-link btn-lg footer-btn"><i class="fab fa-facebook-f"></i></button>
+    <button onclick="window.open('https://www.instagram.com/','_blank')" type="button" class="btn btn-link btn-lg footer-btn"><i class="fab fa-instagram"></i></button>
+    <button onclick="window.open('mailto:nicolemgooden@gmail.com','_blank')" type="button" class="btn btn-link btn-lg footer-btn"><i class="fas fa-envelope fa fa-1x"></i></button>
+    <p>© Copyright 2020 Harper's Hangout</p>
+
+  </footer>
+
+
+</body>
+
+</html>
