@@ -1,79 +1,22 @@
 body {
   font-family: "Times New Roman";
-}
-
-h1 {
-  /*
-  second font to choose from
-  font-family: "Montserrat-Black", "sans-serif";
-  */
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: bold;
-  text-align: left;
-}
-
-h2 {
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: bold;
-}
-
-h3 {
-  font-weight: bold;
-  line-height: 1.5rem;
-}
-
-.title-image {
-  height: 400px;
-  width: 60%;
-  transform:rotate(15deg);
-  border-radius: 15%;
-  margin-left: 5rem;
-
-}
-
-@media (max-width: 1028px) {
-
-.title-image {
-  position: static;
-  transform:rotate(0deg);
-  margin-left: 0;
-  height: 250px;
-  width: 50%;
-}
-
-.title-content {
   text-align: center;
 }
 
-.testimonial-text {
-  font-size: 2rem;
+h1, h2, h3 {
+  font-weight: bold;
 }
-
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-p {
-  font-size: 1.5rem;
-}
-}
-
-
 
 p {
   color: #8f8f8f;
 }
 
-video {
-  height: 15rem;
-  width: 25rem;
+.title-image {
+  height: 400px;
+  width: 60%;
+  transform: rotate(15deg);
   border-radius: 15%;
+  margin-left: 5rem;
 }
 
 .container-fluid {
@@ -83,11 +26,23 @@ video {
 .title {
   background-color: #421b9b;
   color: white;
+  text-align: left;
+}
 
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: left;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -103,31 +58,29 @@ video {
 
 .nav-link {
   font-size: 1.2rem;
-font-family: "Trebuchet MS-light";
+  font-family: "Trebuchet MS-light";
 }
 
 /* Download buttons  */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* Features  */
-
 .features {
   padding: 6% 0;
-  text-align: center;
   background-color: white;
   position: relative;
   z-index: 1;
-
 }
-
-
 
 .features-icons {
   color: #82acff;
   margin-bottom: 1rem;
+}
+
+.feature-title {
+  line-height: 1.5rem;
 }
 
 .col-sm-12 {
@@ -139,12 +92,9 @@ i:hover {
 }
 
 /* Testimonials */
-
 .testimonials {
-  text-align: center;
   background-color: #82acff;
   color: white;
-
 }
 
 .testimonial-image {
@@ -153,11 +103,14 @@ i:hover {
   border-radius: 100%;
 }
 
-/* Press */
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
 
+/* Press */
 .press {
   background-color: #82acff;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -168,52 +121,91 @@ i:hover {
 }
 
 /* Carousel */
-
 .carousel-item {
   padding: 7% 15%;
 }
 
 /* Pricing Cards */
-
 .pricing {
   padding: 75px;
-  text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
 
-/* Call To Action */
+.price-declared {
+  font-size: 3rem;
+  line-height: 1.5;
+}
 
+.card-title {
+  line-height: 1.5rem;
+}
+
+/* Call To Action */
 .cta {
   background-color: #421b9b;
   color: white;
-  text-align: center;
   font-size: 3rem;
   padding-top: 7%;
 }
 
 .cta-download-btn {
   margin: 3% 0 7% 1%;
-  text-align: center;
 }
 
 .cta-text {
-font-size: 3rem;
-line-height: 1.5;
-font-weight: bold;
-
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
 }
 
 .footer {
   background-color: white;
-  text-align: center;
   padding-top: 5%;
 }
 
 /* Footer */
-
 .footer-btn {
   color: black;
+}
+
+/*
+Media Query for Responsiveness (sm,md) */
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+    margin-left: 0;
+    height: 250px;
+    width: 50%;
+  }
+
+  .title-content {
+    text-align: center;
+  }
+
+  .testimonial-text {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+/* Video styles */
+video {
+  height: 15rem;
+  width: 25rem;
+  border-radius: 15%;
 }
